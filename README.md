@@ -1,16 +1,109 @@
-# React + Vite
+# TaskFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFlow es una aplicación web desarrollada con React y Vite para la gestión de tareas y seguimiento de actividades de desarrollo frontend.
 
-Currently, two official plugins are available:
+Permite registrar usuarios, iniciar sesión, administrar tareas, visualizar métricas del proyecto, organizar actividades por día, monitorear avances y mantener la información almacenada mediante LocalStorage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Demo
 
-## React Compiler
+https://proyecto-taskflow.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Características
 
-## Expanding the ESLint configuration
+- Registro de usuario
+- Inicio y cierre de sesión
+- Creación de tareas
+- Eliminación de tareas
+- Cambio de estado de tareas
+- Filtros por estado
+- Búsqueda dinámica
+- Calendario semanal
+- Línea de tiempo del proyecto
+- Dashboard de métricas
+- Persistencia con LocalStorage
+- Modo oscuro
+- Diseño responsive
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript ES6+
+- CSS3
+- LocalStorage
+
+## Objetivo del proyecto
+
+Este proyecto fue desarrollado para fortalecer mis conocimientos en React, manejo de estado, componentes reutilizables, formularios controlados, renderizado dinámico y diseño de interfaces modernas.
+
+## Funcionalidades principales
+
+### Gestión de usuario
+
+El usuario puede registrarse, iniciar sesión y cerrar sesión. La información se mantiene localmente mediante LocalStorage.
+
+### Dashboard
+
+El panel principal muestra indicadores como:
+
+- Total de tareas
+- Tareas pendientes
+- Tareas completadas
+- Prioridades altas
+- Estado del proyecto
+- Responsable principal
+
+### Administración de tareas
+
+Cada tarea permite registrar:
+
+- Título
+- Categoría
+- Prioridad
+- Día asignado
+- Responsable
+- Estado
+
+### Calendario semanal
+
+Muestra la distribución visual de las tareas según el día asignado.
+
+### Línea de tiempo
+
+Presenta las etapas principales del proyecto.
+
+## Instalación local
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/JuanMHZ12/Proyecto_Taskflow.git
+```
+
+Ingresar al proyecto:
+
+```bash
+cd Proyecto_Taskflow
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Ejecutar en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+## Autor
+
+Juan José Meza  
+Estudiante de Ingeniería de Software  
+GitHub: https://github.com/JuanMHZ12
+
+## Licencia
+
+Proyecto educativo desarrollado con fines de aprendizaje y portafolio profesional.
